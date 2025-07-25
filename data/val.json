@@ -1,0 +1,142 @@
+[
+  {
+    "question": "What is 'Explainable AI' and why is it considered important?",
+    "ideal_answer": "Explainable AI (XAI) aims to make AI systems more transparent and understandable, providing insights into how they make decisions. It's considered important for building trust, accountability, and ensuring fairness in AI systems.",
+    "reference": "Chapter 5: The Future of Artificial Intelligence - Explainable AI (XAI); Chapter 19: AI and Ethics",
+    "has_answer": true,
+    "reasoning": "The document directly defines and explains the importance of XAI."
+  },
+  {
+    "question": "AI大模型的主要技术驱动力有哪些？",
+    "ideal_answer": "AI大模型的技术驱动力包括Transformer架构、人类反馈强化学习（RLHF）、指令微调、模型提示等关键技术。",
+    "reference": "第1章 1.2 AI大模型产业发展技术驱动力",
+    "has_answer": true,
+    "reasoning": "报告对这些关键技术进行了详细说明和图示。"
+  },
+  {
+    "question": "中国政府对AI大模型发展有哪些支持政策？",
+    "ideal_answer": "包括‘人工智能+’行动、支持通用与行业大模型研发、加快公共算力中心建设、推动算法和开源平台等一系列政策。",
+    "reference": "第1章 1.1 中国AI大模型产业发展政策驱动力",
+    "has_answer": true,
+    "reasoning": "报告列举了全国多个省市的具体政策和措施。"
+  },
+  {
+    "question": "政务领域如何应用AI大模型？",
+    "ideal_answer": "应用包括政策检索、知识问答、经验库构建、规范性校验等，提高政务效率与内容质量。",
+    "reference": "第1章 1.3.5 政务场景",
+    "has_answer": true,
+    "reasoning": "报告在政务场景部分有明确的描述和举例。"
+  },
+  {
+    "question": "AI大模型是否适用于代码生成？",
+    "ideal_answer": "是的，多个大模型如讯飞星火、文心一言、通义千问都具备代码生成、代码理解和调试能力。",
+    "reference": "第2章 2.3 通用大模型典型案例",
+    "has_answer": true,
+    "reasoning": "报告列出多个大模型支持代码类任务。"
+  },
+  {
+    "question": "报告中是否提到大模型用于精准农业？",
+    "ideal_answer": "我没有足够的信息回答这个问题。",
+    "reference": "None",
+    "has_answer": false,
+    "reasoning": "报告未涉及农业相关应用。"
+  },
+  {
+    "question": "国产AI芯片能否替代英伟达芯片训练大模型？",
+    "ideal_answer": "目前尚难完全替代。虽然国产芯片如昇腾、寒武纪等已有进展，但性能仍与A100/H100有差距。",
+    "reference": "第3章 3.1 大模型产业遭遇算力瓶颈",
+    "has_answer": true,
+    "reasoning": "报告详细讨论了国产芯片的能力与挑战。"
+  },
+  {
+    "question": "写易智能创作引擎的主要目标用户有哪些？",
+    "ideal_answer": "党政党媒、央企国企、学校医院等机构群体。",
+    "reference": "第2章 2.4 写易大模型案例",
+    "has_answer": true,
+    "reasoning": "报告明确列出了适用群体及应用场景。"
+  },
+  {
+    "question": "大模型在金融行业有哪些应用？",
+    "ideal_answer": "如个性化服务、电子营销、信贷支持、欺诈检测等。",
+    "reference": "第1章 1.3.3 金融场景",
+    "has_answer": true,
+    "reasoning": "报告详细描述了大模型在金融行业的多个应用环节。"
+  },
+  {
+    "question": "大模型开源是否会成为主流趋势？",
+    "ideal_answer": "是，报告指出开源将推动创新发展，并列举了多个开源模型如ChatGLM、通义千问、Baichuan等。",
+    "reference": "第4章 4.3 AI大模型将广泛开源",
+    "has_answer": true,
+    "reasoning": "报告清晰陈述了开源趋势及代表性开源模型。"
+  },
+  {
+    "question": "AI大模型是否能够有效辅助招聘流程？",
+    "ideal_answer": "是的，如用友的YonGPT已用于智能招聘，提高人才识别与匹配效率。",
+    "reference": "第2章 2.4 用友YonGPT案例",
+    "has_answer": true,
+    "reasoning": "报告提供了招聘场景的详细应用实例。"
+  },
+  {
+    "question": "报告中是否提到AI用于生成3D建模？",
+    "ideal_answer": "我没有足够的信息回答这个问题。",
+    "reference": "None",
+    "has_answer": false,
+    "reasoning": "报告未提及3D建模相关内容。"
+  },
+  {
+    "question": "中国AI大模型的市场驱动因素包括哪些？",
+    "ideal_answer": "包括办公自动化、制造业智能化、医疗诊断提升、政务效率优化等需求。",
+    "reference": "第1章 1.3 市场驱动力",
+    "has_answer": true,
+    "reasoning": "该部分系统总结了主要驱动场景。"
+  },
+  {
+    "question": "什么是‘思维链提示（Chain of Thought Prompting）’？",
+    "ideal_answer": "它是一种提示方法，通过提供逐步推理过程，引导模型进行多步逻辑推理。",
+    "reference": "第1章 1.2.2 AI语言大模型关键技术",
+    "has_answer": true,
+    "reasoning": "报告明确介绍了该技术的概念与作用。"
+  },
+  {
+    "question": "端侧大模型比云侧大模型有哪些优势？",
+    "ideal_answer": "优势包括成本更低、支持离线运行、数据安全更强、隐私保护更好。",
+    "reference": "第4章 4.1 云侧与端侧模型趋势",
+    "has_answer": true,
+    "reasoning": "报告详细对比了两者特点。"
+  },
+  {
+    "question": "报告是否说明AI可用于内容审核？",
+    "ideal_answer": "是的，如‘写易’大模型支持规范性审校、关键信息审核、涉政内容识别等。",
+    "reference": "第2章 2.4 写易大模型案例",
+    "has_answer": true,
+    "reasoning": "该部分详细介绍了内容审核相关功能。"
+  },
+  {
+    "question": "中国的AI大模型产业是否已实现数据开源标准？",
+    "ideal_answer": "我没有足够的信息回答这个问题。",
+    "reference": "None",
+    "has_answer": false,
+    "reasoning": "报告虽有部分数据来源介绍，但未提到统一开源标准。"
+  },
+  {
+    "question": "AI大模型在制造业的应用包括哪些？",
+    "ideal_answer": "应用包括产品设计辅助、数字孪生模拟、工厂供应链智能管理等。",
+    "reference": "第1章 1.3.2 制造场景",
+    "has_answer": true,
+    "reasoning": "制造场景的应用在报告中有详细展开。"
+  },
+  {
+    "question": "vivo的蓝心大模型是否可在手机上本地运行？",
+    "ideal_answer": "是的，蓝心大模型1B和7B具备本地运行能力，支持快速出词和低内存占用。",
+    "reference": "第2章 2.5 蓝心大模型案例",
+    "has_answer": true,
+    "reasoning": "报告多次强调其端侧运行特性与优化能力。"
+  },
+  {
+    "question": "报告中是否提到AI模型与芯片协同优化？",
+    "ideal_answer": "是的，如文心一言通过飞桨平台和芯片系统进行软硬协同优化，加速模型训练。",
+    "reference": "第2章 2.3 文心一言大模型",
+    "has_answer": true,
+    "reasoning": "报告明确提到算力与平台协同优化以支持训练。"
+  }
+]
