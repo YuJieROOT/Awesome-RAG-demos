@@ -52,11 +52,11 @@ def create_embedding(chunks):
     return completion
 
 # =========== 通过 余弦相似度 计算 用户查询 与 chunks 的相似度 ===========
-def cosine_similarity(query_embedding, text_embedding):
-    return np.dot(query_embedding, text_embedding) / (np.linalg.norm(query_embedding) * np.linalg.norm(text_embedding))
+def cosine_similarity(vec1, vec2):
+    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
 # =========== 找到与 用户查询 相似度最高的 k 个 chunks ===========
-def get_top_k_chunks(query, chunks, embeddings, top_k=5):
+def get_top_k_chunks(query, chunks, embeddings, top_k):
 
     query_embedding = create_embedding(query).data[0].embedding # 用户查询的向量表示
 
