@@ -71,6 +71,7 @@ user_message = f"{user_message}\nQuestion: {query}"
 system_prompt = "You are an AI assistant that strictly answers based on the given context. If the answer cannot be derived directly from the provided context, respond with: 'I do not have enough information to answer that.'"
 
 ai_response = utils.generate_response(client, system_prompt, user_message)
+
 print(f"==================== AI's Answer ==================== \n {ai_response.choices[0].message.content}")
 
 # ====================== 评估 ======================
