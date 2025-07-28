@@ -73,7 +73,7 @@ def get_top_k_chunks(query, chunks, embeddings, top_k, client):
     return [chunks[idx] for idx in top_idx]
 
 
-# =========== 定义 AI 助手的系统提示 ===========
+# =========== 生成 AI 回复 ===========
 def generate_response(client, system_prompt, user_message, model="qwen-plus"):
     response = client.chat.completions.create(
         model=model,
