@@ -83,6 +83,6 @@ def generate_response(client, system_prompt, user_message, model="qwen-plus"):
             {"role": "user", "content": user_message}
         ]
     )
-    return response
+    return response.choices[0].message.content
 
 
